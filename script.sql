@@ -1,0 +1,12 @@
+CREATE DATABASE Produtos;
+
+USE Produtos;
+
+CREATE TABLE TDS_TB_Produtos (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    tipo VARCHAR(50) NOT NULL,
+    classificacao VARCHAR(50) NOT NULL,
+    tamanho VARCHAR(20) NOT NULL,
+    preco DECIMAL(10, 2) NOT NULL
+);
